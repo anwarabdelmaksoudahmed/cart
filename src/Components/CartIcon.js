@@ -10,7 +10,7 @@ function CartIcon(props) {
     <div>
       <Link to="/Cart">
         <span className="badge badge-danger">{props.totalQuantity}</span>
-        <FontAwesomeIcon
+        <FontAwesomeIconnp
           icon={faShoppingCart}
           className="cart"
         ></FontAwesomeIcon>
